@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+
+    <link rel="icon" href="assets/logo.webp" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Erlie Website</title>
+  </head>
+
+  <body>
+    <!--HEADER-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-white py-1 position-fixed z-3 w-100"
+    >
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="index.html">
+          <img src="assets/logo.webp" alt="Logo" style="height: 80px" />
+        </a>
+
+        <!-- Toggle button for mobile view -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar items -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto fw-bold footer-links gap-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Industries</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Careers</a>
+            </li>
+          </ul>
+          <!-- Contact Us Button -->
+          <a
+            href="#"
+            class="menu-contact btn btn-primary d-none d-lg-inline-flex align-items-center justify-content-center px-4"
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <!--HERO SECTION-->
+    <section
+      class="hero-section"
+      style="background-image: url('assets/hero-bg.jpg')"
+    >
+      <div class="container overlay">
+        <div class="row">
+          <div class="col-xxl-6 col-xl-7 col-lg-8">
+            <p class="hero-small mb-0 d-inline-block mb-2">
+              Management Consulting
+            </p>
+            <h1 class="hero-main mb-3">
+              Empowering Growth with Strategic Management
+            </h1>
+            <p class="hero-para">
+              Empowering SMPs, Startups, Government Entities, and Tech Companies
+              with Expert Project Management, Tax Solutions, and Administrative
+              Excellence
+            </p>
+            <a
+              href="#"
+              class="hero-btn btn d-inline-flex align-items-center justify-content-center px-5"
+              >Contact With Us</a
+            >
+          </div>
+          <div class="col-lg-6"></div>
+        </div>
+      </div>
+    </section>
+
+    <!--ABOUT-US-->
+    <section class="about-us">
+      <div class="container">
+        <div class="row align-items-xxl-center">
+          <div class="d-flex justify-content-center mb-4">
+            <p class="our-services-small mb-0">ABOUT US</p>
+          </div>
+          <div
+            class="col-xl-4 col-lg-6 d-lg-block d-none abt-img"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="2000"
+            data-os-easing="linear"
+          >
+            <img src="assets/about.png" class="img-fluid rounded-3" />
+          </div>
+          <div
+            class="col-xl-8 col-lg-6 abt-content ps-lg-5"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="2000"
+            data-os-easing="linear"
+          >
+            <h1 class="abt-main text-sm-start text-center">
+              Tailored SMB Solutions: <br />
+              Designed Just for You
+            </h1>
+            <p class="abt-para mb-4">
+              Our mission is to provide customized, high-quality solutions
+              designed to meet the specific needs and challenges of small and
+              medium-sized businesses (SMBs). We take the time to understand
+              each business's unique circumstances and craft strategies that
+              drive success, efficiency, and growth. Our approach ensures that
+              every solution we deliver is meticulously aligned with your goals,
+              helping your business navigate challenges and achieve sustainable
+              progress.
+            </p>
+            <div class="abt-icon-box d-flex">
+              <div class="abt-icon me-3">
+                <img src="assets/icons/check-mark.png" width="25px" />
+              </div>
+              <div class="abt-icon-box-content">
+                <h4 class="fw-bold">Tailored SMB Solutions</h4>
+                <p>
+                  Our services are designed specifically for SMBs, focusing on
+                  overcoming budget limitations, resource constraints, and the
+                  need for scalable solutions as businesses grow.
+                </p>
+              </div>
+            </div>
+            <div class="abt-icon-box d-flex">
+              <div class="abt-icon me-3">
+                <img src="assets/icons/check-mark.png" width="25px" />
+              </div>
+              <div class="abt-icon-box-content">
+                <h4 class="fw-bold">Technology Edge</h4>
+                <p>
+                  Utilizing advanced technology and AI-driven tools, we bring
+                  efficiencies and innovations to our services that individual
+                  consultants and smaller firms may not offer.
+                </p>
+              </div>
+            </div>
+            <div class="abt-icon-box d-flex">
+              <div class="abt-icon me-3">
+                <img src="assets/icons/check-mark.png" width="25px" />
+              </div>
+              <div class="abt-icon-box-content">
+                <h4 class="fw-bold">Sustainable Productivity</h4>
+                <p>
+                  We differentiate ourselves by offering not just one-time
+                  solutions but also flexible ongoing support and training. This
+                  ensures that the small businesses we partner with can maintain
+                  and build upon the productivity gains independently over the
+                  long term.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--OUR-SERVICES-->
+    <section class="our-services">
+      <div
+        class="container mb-5"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="2000"
+        data-os-easing="linear"
+      >
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <p class="our-services-small">Our Services</p>
+            </div>
+            <h1 class="our-services-main">
+              Partnerships for Lasting Growth and Success
+            </h1>
+            <p class="our-services-para px-md-5">
+              At Connective Business Solutions, we pride ourselves on building
+              enduring partnerships with our clients. Our solutions are
+              thoughtfully crafted not only to solve immediate challenges but
+              also to lay the foundation for long-term success as your business
+              evolves. With our diverse expertise and tailored approach, we are
+              the ideal partner for small and medium-sized businesses aiming to
+              overcome obstacles and achieve their growth ambitions. Together,
+              we'll navigate the complexities of your business environment and
+              drive sustainable progress.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-4 col-md-6 text-center d-flex justify-content-center mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
+            data-os-easing="linear"
+          >
+            <div class="card services-cards h-100 border-0">
+              <img src="assets/card-1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-4">
+                <h5 class="card-title fw-bold">Project Management:</h5>
+                <p class="card-text">
+                  Our project management services are designed to deliver
+                  exceptional results by meticulously planning, executing, and
+                  overseeing projects to meet your business goals. We ensure
+                  efficiency, timeliness, and alignment with your objectives,
+                  employing industry-best practices to drive success across
+                  diverse sectors.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 text-center d-flex justify-content-center mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
+            data-os-easing="linear"
+          >
+            <div class="card services-cards h-100 border-0">
+              <img src="assets/card-2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-4">
+                <h5 class="card-title fw-bold">Tax Consulting:</h5>
+                <p class="card-text">
+                  Navigate the complexities of taxation with confidence. Our
+                  strategic tax consulting services are tailored to minimize
+                  liabilities, ensure full compliance with regulations, and
+                  support sound financial decision-making for sustainable
+                  growth.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 text-center d-flex justify-content-center mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
+            data-os-easing="linear"
+          >
+            <div class="card services-cards h-100 border-0">
+              <img src="assets/card-4.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-4">
+                <h5 class="card-title fw-bold">Administrative Services:</h5>
+                <p class="card-text">
+                  Elevate your business efficiency through our administrative
+                  solutions. We streamline operations, optimize workflows, and
+                  manage critical data, providing robust support that allows you
+                  to focus on core business activities.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 text-center d-flex justify-content-center mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
+            data-os-easing="linear"
+          >
+            <div class="card services-cards h-100 border-0">
+              <img src="assets/card-3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-4">
+                <h5 class="card-title fw-bold">General Consulting:</h5>
+                <p class="card-text">
+                  Address a broad spectrum of business challenges with our
+                  customized consulting services. We offer tailored solutions
+                  that meet the unique requirements of each client, ensuring
+                  that your specific needs are effectively addressed.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 text-center d-flex justify-content-center mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
+            data-os-easing="linear"
+          >
+            <div class="card services-cards h-100 border-0">
+              <img src="assets/card-5.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-4">
+                <h5 class="card-title fw-bold">
+                  Business Process Improvements:
+                </h5>
+                <p class="card-text">
+                  Boost productivity and cut costs with our business process
+                  improvement services. We analyze and refine your operations to
+                  enhance efficiency and effectiveness, driving better results
+                  across your organization.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 text-center d-flex justify-content-center mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
+            data-os-easing="linear"
+          >
+            <div class="card services-cards h-100 border-0">
+              <img src="assets/card-6.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-4">
+                <h5 class="card-title fw-bold">Technology Implementation:</h5>
+                <p class="card-text">
+                  We assist businesses in selecting, integrating, and leveraging
+                  technology to foster innovation and maintain a competitive
+                  edge.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col-lg-4 col-md-6 text-center d-flex justify-content-center mb-4"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
+            data-os-easing="linear"
+          >
+            <div class="card services-cards h-100 border-0">
+              <img src="assets/card-7.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-4">
+                <h5 class="card-title fw-bold">Government Projects:</h5>
+                <p class="card-text">
+                  Leverage our deep expertise in public sector solutions for
+                  your government projects. We deliver efficient, effective
+                  strategies that enhance public sector operations, ensuring
+                  projects meet objectives and deliver value to the community.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--CTA-->
+    <section
+      class="cta"
+      style="
+        background-image: url('assets/cta-bg.webp');
+        background-attachment: fixed;
+      "
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="cta-main mb-3">Strategic Growth Solutions for SMEs</h1>
+            <p class="cta-content px-md-5 px-4">
+              At Connective Business Solutions, we specialize in crafting
+              tailored solutions that empower small and medium enterprises
+              (SMEs) to overcome strategic challenges and drive growth. Our
+              approach enables SMEs to leverage cutting-edge technology, attract
+              top talent, expand into new markets, and streamline operations for
+              maximum efficiency. By addressing your specific needs, we help
+              your business unlock its full potential and achieve sustained
+              success in an ever-evolving market.
+            </p>
+            <div class="d-flex justify-content-center mt-4">
+              <a
+                href="#"
+                class="cta-btn btn d-none d-lg-inline-flex align-items-center justify-content-center"
+                >Lets Talk</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--WHY-CHOOSE-US-->
+    <section class="why-choose-us">
+      <div
+        class="container mb-4"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="2000"
+        data-os-easing="linear"
+      >
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <p class="our-services-small">Why Choose Us</p>
+            </div>
+            <h1 class="our-services-main">
+              Expertise, Empathy, and Innovation
+            </h1>
+            <p class="our-services-para">
+              Choose us for our profound understanding, agility, and advanced
+              technological expertise in addressing startup challenges. We’re
+              committed to being a crucial extension of your team, navigating
+              modern business complexities, and fostering sustainable growth.
+              Partner with us to collaboratively build a successful and
+              prosperous future.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row align-items-center">
+          <div
+            class="col-xl-4 col-lg-6 d-lg-block d-none why-choose-us-img"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
+            data-os-easing="linear"
+          >
+            <img src="assets/why-choose-us.jpg" class="img-fluid rounded-3" />
+          </div>
+          <div
+            class="col-xl-8 col-lg-6 ps-lg-5"
+            data-aos="fade-up"
+            data-aos-delay="200"
+            data-aos-duration="2000"
+            data-os-easing="linear"
+          >
+            <div class="abt-icon-box d-flex align-items-center mb-4">
+              <div class="abt-icon me-3 py-2">
+                <img src="assets/why-choose-us-1.png" width="80px" />
+              </div>
+              <div class="abt-icon-box-content">
+                <h6 class="fw-bold">
+                  Personalized and Attentive Client Service
+                </h6>
+                <p class="mb-0">
+                  Our boutique size allows us to provide hands-on, responsive,
+                  and flexible services
+                </p>
+              </div>
+            </div>
+            <div class="abt-icon-box d-flex align-items-center mb-4">
+              <div class="abt-icon me-3 py-2">
+                <img src="assets/whychoose-icon2.png" width="80px" />
+              </div>
+              <div class="abt-icon-box-content">
+                <h6 class="fw-bold">
+                  Cost-Effective Solutions with High Value
+                </h6>
+                <p class="mb-0">
+                  We understand the budget constraints of SMBs and offer
+                  competitive rates without compromising on quality
+                </p>
+              </div>
+            </div>
+            <div class="abt-icon-box d-flex align-items-center mb-4">
+              <div class="abt-icon me-3 py-2">
+                <img src="assets/whychoose-icon3.png" width="80px" />
+              </div>
+              <div class="abt-icon-box-content">
+                <h6 class="fw-bold">Proactive and Collaborative Approach</h6>
+                <p class="mb-0">
+                  We act as proactive partners, providing substantial
+                  recommendations and initiative to strengthen operations
+                </p>
+              </div>
+            </div>
+            <div class="abt-icon-box d-flex align-items-center">
+              <div class="abt-icon me-3 py-2">
+                <img src="assets/whychoose-icon4.png" width="80px" />
+              </div>
+              <div class="abt-icon-box-content">
+                <h6 class="fw-bold">
+                  Direct Access to Founders and Decision-Makers
+                </h6>
+                <p class="mb-0">
+                  Ensuring high responsiveness and open communication
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--TESTIMONIALS-->
+    <section class="testimonials">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <p class="our-services-small">Testimonials</p>
+            </div>
+            <h1 class="our-services-main mb-3">What Our Client Says</h1>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 px-0">
+            <div
+              id="carouselExampleControls"
+              class="carousel carousel-dark slide pointer-event"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-label="Slide 1"
+                  aria-current="true"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                  class=""
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div
+                    class="card-wrapper container-sm d-flex justify-content-around"
+                  >
+                    <div class="testimonial-card d-flex col-lg-6 col-12 me-3">
+                      <div class="abt-icon me-3">
+                        <img src="assets/icons/testimonial.png" width="30px" />
+                      </div>
+                      <div class="abt-icon-box-content-1">
+                        <p>
+                          "Working with [Consulting Firm Name] was a
+                          game-changer for our business. Their strategic
+                          insights and actionable solutions helped us streamline
+                          operations and boost our profitability by 30% in just
+                          six months. Highly recommended!"
+                        </p>
+                        <h6 class="fw-bold">
+                          John Matthews, CEO of InnovateTech
+                        </h6>
+                      </div>
+                    </div>
+                    <div
+                      class="testimonial-card abt-icon-box d-flex col-lg-6 col-12"
+                    >
+                      <div class="abt-icon me-3">
+                        <img src="assets/icons/testimonial.png" width="30px" />
+                      </div>
+                      <div class="abt-icon-box-content-1">
+                        <p>
+                          "The team at [Consulting Firm Name] brought a fresh
+                          perspective to our long-standing challenges. Their
+                          data-driven approach and hands-on support made a
+                          significant difference in our decision-making process.
+                          We couldn't be happier with the results!"
+                        </p>
+                        <h6 class="fw-bold">
+                          Sara Wilson, Director of Operations at Peak
+                          Performance
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div
+                    class="card-wrapper container-sm d-flex justify-content-around"
+                  >
+                    <div
+                      class="testimonial-card abt-icon-box d-flex col-lg-6 col-12 me-3"
+                    >
+                      <div class="abt-icon me-3">
+                        <img src="assets/icons/testimonial.png" width="30px" />
+                      </div>
+                      <div class="abt-icon-box-content-1">
+                        <p>
+                          "We approached [Consulting Firm Name] during a
+                          critical growth phase, and they exceeded our
+                          expectations. Their expertise in scaling businesses
+                          helped us achieve sustainable growth and develop a
+                          solid roadmap for the future."
+                        </p>
+                        <h6 class="fw-bold">
+                          Michael Thompson, Founder of FutureVision
+                        </h6>
+                      </div>
+                    </div>
+                    <div
+                      class="testimonial-card abt-icon-box d-flex col-lg-6 col-12"
+                    >
+                      <div class="abt-icon me-3">
+                        <img src="assets/icons/testimonial.png" width="30px" />
+                      </div>
+                      <div class="abt-icon-box-content-1">
+                        <p>
+                          "Their attention to detail and customized solutions
+                          set [Consulting Firm Name] apart. They worked closely
+                          with our leadership team to develop strategies that
+                          aligned perfectly with our company goals. Their work
+                          continues to deliver results."
+                        </p>
+                        <h6 class="fw-bold">
+                          Lisa Chen, COO of Global Horizons
+                        </h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- <button
+                              class="carousel-control-prev"
+                              data-bs-slide="prev"
+                              data-bs-target="#carouselExampleIndicators"
+                              type="button"
+                            >
+                              <span aria-hidden="true" class="">
+                                <i class="bi bi-chevron-left"></i>
+                              </span>
+                              <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button
+                            class="carousel-control-next testi-next"
+                            data-bs-slide="next"
+                            data-bs-target="#carouselExampleIndicators"
+                            type="button"
+                          >
+                            <span aria-hidden="true" class="">
+                              <i class="bi bi-chevron-right"></i>
+                            </span>
+                            <span class="visually-hidden">Next</span>
+                          </button>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--SUBSCRIBE SECTION-->
+    <section class="subscribe">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="d-flex justify-content-center">
+              <p class="our-services-small">Contact Us</p>
+            </div>
+          </div>
+        </div>
+        <div class="row align-items-center">
+          <div class="col-xl-4 col-lg-6 d-lg-block d-none subscribe-img">
+            <img src="assets/subscribe.jpg" class="rounded-3 img-fluid" />
+          </div>
+          <div class="col-xl-8 col-lg-6 subs-form ps-lg-5">
+            <div class="form-floating mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="floatingInput"
+                placeholder="Your Full Name"
+              />
+              <label for="floatingInput">Full Name</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Your Email"
+              />
+              <label for="floatingPassword">Email</label>
+            </div>
+            <div class="form-floating mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="floatingPassword"
+                placeholder="Your Phone Number"
+              />
+              <label for="floatingPassword">Phone No.</label>
+            </div>
+            <div class="form-floating mb-3">
+              <textarea
+                class="form-control"
+                placeholder="Leave your Message here"
+                id="floatingTextarea2"
+                style="height: 100px"
+              ></textarea>
+              <label for="floatingTextarea2">Message</label>
+            </div>
+            <div class="d-flex justify-content-center3">
+              <a
+                href="#"
+                class="cta-btn btn d-none d-lg-inline-flex align-items-center justify-content-center px-5"
+                >Submit</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!---FOOTER-->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-xl-0 mb-4">
+            <h1 class="footer-headers">Connective Business Solution</h1>
+            <p class="footer-intro">
+              Our competitive advantage lies in our blend of specialized
+              industry expertise, technology utilization, and the ability to
+              provide practical solutions tailored to SMBs.
+            </p>
+
+            <div class="d-flex footer-social">
+              <img src="assets/icons/facebook-app-symbol.png" />
+              <img src="assets/icons/twitter.png" />
+              <img src="assets/icons/youtube.png" />
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-xl-0 mb-4">
+            <h1 class="footer-headers">Quick Links</h1>
+            <div class="d-flex gap-5">
+              <div>
+                <ul class="footer-links ps-0 list-unstyled">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Our Services</a></li>
+                  <li><a href="#">Staffing</a></li>
+                  <li><a href="#">Blogs</a></li>
+                  <li><a href="#">Contact Us</a></li>
+                </ul>
+              </div>
+              <div>
+                <ul class="footer-links list-unstyled ps-3">
+                  <li><a href="#">Industries</a></li>
+                  <li><a href="#">Insight</a></li>
+                  <li><a href="#">News</a></li>
+                  <li><a href="#">Careers</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-xl-0 mb-4">
+            <h1 class="footer-headers">Contact Details</h1>
+            <div class="abt-icon-box d-flex">
+              <div class="abt-icon me-3">
+                <img src="assets/icons/location.png" width="30px" />
+              </div>
+              <div class="abt-icon-box-content">
+                <p>6900 Tavistock Lakes Blvd, Orlando, FL 32827, USA</p>
+              </div>
+            </div>
+            <div class="abt-icon-box d-flex">
+              <div class="abt-icon me-3">
+                <img src="assets/icons/phone-call.png" width="30px" />
+              </div>
+              <div class="abt-icon-box-content">
+                <p>407-541-0808</p>
+              </div>
+            </div>
+            <div class="abt-icon-box d-flex">
+              <div class="abt-icon me-3">
+                <img src="assets/icons/email.png" width="30px" />
+              </div>
+              <div class="abt-icon-box-content">
+                <p>info@hello.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-4 col-sm-6 mb-xl-0 mb-4">
+            <h1 class="footer-headers">Get Our Latest Updates</h1>
+            <p class="footer-intro">
+              Join our email list to receive all the latest information about
+              the world of SMEs.
+            </p>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Enter Your Email"
+              />
+            </div>
+            <div class="d-flex justify-content-center mt-3">
+              <a
+                href="#"
+                class="footer-btn btn-primary btn d-inline-flex menu-contact align-items-center justify-content-center"
+                >Get Updates</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+
+    <script>
+      // Aos Initialization
+      AOS.init();
+
+      // Navbar adding class when I scroll half the header
+      const navbar = document.querySelector(".navbar");
+      window.addEventListener("scroll", () => {
+        if (window.scrollY > window.innerHeight / 2) {
+          navbar.classList.add("navbarScrolled");
+        } else {
+          navbar.classList.remove("navbarScrolled");
+        }
+      });
+    </script>
+  </body>
+</html>

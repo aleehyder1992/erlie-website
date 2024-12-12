@@ -1,0 +1,422 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    padding: 15px 0 15px 0;
+}
+
+.navbarScrolled {
+    box-shadow: 0 4px 4px rgba(0, 0, 0, .25);
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #233d63;
+    font-weight: 600;
+}
+
+.navbar-nav .nav-item .nav-link.active::after {
+    width: 100%;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+    font-weight: 800;
+}
+
+.navbar-nav .nav-item .nav-link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #233d63;
+    transition: width 0.5s;
+}
+
+.navbar-nav .nav-item .nav-link:hover::after {
+    width: 100%;
+    transition: width 0.5s;
+}
+
+.hero-section {
+    height: 100vh;
+    background-size: cover;
+    z-index: 2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-small {
+    font-size: 16px;
+    color: #233d63;
+    font-weight: 500;
+    padding-left: 60px;
+    position: relative;
+}
+
+.hero-small::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #233d63;
+    left: 0;
+    top: 50%;
+}
+
+.hero-main {
+    font-size: 50px;
+    color: #233d63;
+    font-weight: bolder;
+}
+
+.hero-para {
+    font-size: 18px;
+    color: #233d63;
+    font-weight: 500;
+}
+
+.hero-btn {
+    background-color: #00adef;
+    color: white;
+    font-size: 15px;
+    height: 45px;
+    font-weight: 500;
+}
+
+.hero-btn:hover {
+    background-color: #233d63;
+    border-color: #233d63;
+    color: #fff;
+}
+
+.about-us {
+    padding: 70px 0 70px 0;
+}
+
+.abt-img img {
+    width: 100%;
+}
+
+.about-small {
+    font-size: 1.188rem;
+    color: #233d63;
+    font-weight: bold;
+    border: 2px solid #233d63;
+    width: 20%;
+    text-align: center;
+}
+
+.abt-main {
+    font-size: 2.25rem;
+    color: #233d63;
+    font-weight: bolder;
+}
+
+.abt-para {
+    font-size: 1rem;
+    color: #7f7f7f;
+    text-align: justify;
+}
+
+.our-services {
+    background-color: #f2f3f4;
+    padding: 60px 0 45px 0;
+}
+
+.our-services-small {
+    font-size: 20px;
+    color: #233d63;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px 45px;
+    text-align: center;
+    border: 2px solid #233d63;
+}
+
+.services-cards {
+    transition: transform 0.3s ease-in-out;
+}
+
+.services-cards:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.our-services-main {
+    font-size: 35px;
+    color: #233d63;
+    font-weight: bold;
+    text-align: center;
+}
+
+.our-services-para {
+    font-size: 17px;
+    color: #7f7f7f;
+    text-align: center;
+}
+
+.cta {
+    padding: 70px 0 70px 0;
+    background-size: cover;
+}
+
+.abt-icon-box-content-1 p {
+    color: white;
+}
+
+.abt-icon-box-content h4 {
+    color: #233d63;
+}
+
+.abt-icon-box-content p {
+    color: #7f7f7f;
+}
+
+.abt-icon-box-content h6 {
+    color: #233d63;
+}
+
+.cta-main {
+    font-size: 35px;
+    color: white;
+    text-align: center;
+}
+
+.cta-content {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.menu-contact {
+    background-color: #00adef !important;
+    border-color: #00adef !important;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    height: 45px;
+    justify-content: center;
+}
+
+.menu-contact:hover {
+    background-color: #233d63 !important;
+    border-color: #233d63 !important;
+    color: #fff;
+}
+
+.cta-btn {
+    background-color: #00adef;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    height: 45px;
+    padding: 0px 70px;
+}
+
+.cta-btn:hover {
+    background-color: #233d63;
+    border-color: #233d63;
+    color: #fff;
+}
+
+.why-choose-us {
+    padding: 70px 0 70px 0;
+    background-color: #f2f3f4;
+}
+
+.testimonials {
+    padding: 70px 0 70px 0;
+}
+
+.testimonial-card {
+    background-color: #233d63;
+    padding: 30px;
+    color: white;
+    border-radius: 10px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    background-color: #233d63;
+    border: 2px solid white;
+    border-radius: 25px;
+    margin: 0 20px 0 25px;
+    top: 45px;
+    bottom: 2px;
+    position: relative;
+}
+
+.subscribe {
+    background-color: #f2f3f4;
+    padding: 70px 0 70px 0;
+}
+
+.card-title {
+    color: #233d63;
+}
+
+.card-text {
+    color: #333;
+    font-size: 15px;
+}
+
+.subs-form h1 {
+    color: #233d63;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.form-control {
+    border: 1.15px solid #b5b1b1;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: inset 3px 0 0 0 #233d63;
+}
+
+footer {
+    padding: 70px 0 70px 0;
+}
+
+.footer-social img {
+    width: 25px;
+}
+
+.footer-social {
+    gap: 20px;
+}
+
+.footer-intro {
+    font-size: 15px;
+    color: #233d63;
+    font-weight: 500;
+}
+
+.footer-headers {
+    font-size: 25px;
+    color: #233d63;
+    font-weight: bolder;
+}
+
+.footer-links li a {
+    text-decoration: none;
+    color: #233d63;
+    line-height: 2;
+}
+
+.footer-links li a:hover {
+    color: #233d63;
+}
+
+.footer-btn {
+    width: 100%;
+    background-color: #233d63;
+}
+
+
+/* scroll bar */
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #233d63;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #233d63;
+}
+
+@media screen and (max-width: 991px) {
+    .hero-section {
+        height: 70vh;
+    }
+    .cta,
+    .testimonials,
+    .subscribe,
+    footer {
+        padding: 40px 0 40px 0;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-btn {
+        padding: 10px 10px 10px 10px;
+        width: 50%;
+    }
+    .hero-section {
+        padding: 70px 0 70px 0;
+        background-size: cover;
+    }
+    .hero-main {
+        font-size: 25px;
+    }
+    .abt-img img {
+        display: none;
+    }
+    .about-small {
+        width: 100%;
+    }
+    .abt-main {
+        font-size: 25px;
+    }
+    .about-us {
+        padding: 35px 0 35px 0;
+    }
+    .abt-para {
+        font-size: 16px;
+    }
+    .our-services-main {
+        font-size: 25px;
+    }
+    .our-services-para {
+        font-size: 16px;
+    }
+    .card-text {
+        font-size: 16px;
+    }
+    .cta-main {
+        font-size: 25px;
+    }
+    .cta-content {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .cta {
+        padding: 35px 0 35px 0;
+    }
+    .why-choose-us {
+        padding: 35px 0 35px 0;
+    }
+    .subs-form h1 {
+        font-size: 20px;
+    }
+    .footer-headers {
+        font-size: 20px;
+    }
+    .footer-social {
+        padding-bottom: 10px;
+    }
+    .hero-section {
+        height: 40vh;
+    }
+    .our-services {
+        padding: 30px 0 23px 0;
+    }
+}
